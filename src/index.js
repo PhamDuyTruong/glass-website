@@ -3,9 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import GloablStyle from './GlobalStyle';
 
 ReactDOM.render(
   <React.StrictMode>
+    <GloablStyle />
     <App />
   </React.StrictMode>,
   document.getElementById('root')
